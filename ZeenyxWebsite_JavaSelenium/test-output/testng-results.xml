@@ -14,12 +14,12 @@
       <![CDATA[Test Completed >>>> Reports Generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37919" started-at="2020-02-14T12:55:18 IST" finished-at="2020-02-14T12:55:56 IST">
+  <suite name="Default suite" duration-ms="73307" started-at="2020-06-05T12:04:58 IST" finished-at="2020-06-05T12:06:11 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37919" started-at="2020-02-14T12:55:18 IST" finished-at="2020-02-14T12:55:56 IST">
+    <test name="Default test" duration-ms="73307" started-at="2020-06-05T12:04:58 IST" finished-at="2020-06-05T12:06:11 IST">
       <class name="com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase">
-        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6]" name="SetUpSuite" is-config="true" duration-ms="365" started-at="2020-02-14T12:55:17 IST" finished-at="2020-02-14T12:55:18 IST">
+        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab]" name="SetUpSuite" is-config="true" duration-ms="150" started-at="2020-06-05T12:04:58 IST" finished-at="2020-06-05T12:04:58 IST">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and test is getting ready]]>
@@ -29,19 +29,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- SetUpSuite -->
-        <test-method status="PASS" signature="AppOnStart()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6]" name="AppOnStart" is-config="true" duration-ms="23042" started-at="2020-02-14T12:55:18 IST" finished-at="2020-02-14T12:55:41 IST">
+        <test-method status="PASS" signature="AppOnStart()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab]" name="AppOnStart" is-config="true" duration-ms="52840" started-at="2020-06-05T12:04:58 IST" finished-at="2020-06-05T12:05:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOnStart -->
-        <test-method status="PASS" signature="InfoAboutAT_ZeenyxTestcase()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6]" name="InfoAboutAT_ZeenyxTestcase" duration-ms="5019" started-at="2020-02-14T12:55:41 IST" finished-at="2020-02-14T12:55:46 IST">
+        <test-method status="PASS" signature="InfoAboutAT_ZeenyxTestcase()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab]" name="InfoAboutAT_ZeenyxTestcase" duration-ms="5111" started-at="2020-06-05T12:05:51 IST" finished-at="2020-06-05T12:05:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InfoAboutAT_ZeenyxTestcase -->
-        <test-method status="PASS" signature="CaptureSnapshot(org.testng.ITestResult)[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6]" name="CaptureSnapshot" is-config="true" duration-ms="6163" started-at="2020-02-14T12:55:46 IST" finished-at="2020-02-14T12:55:52 IST">
+        <test-method status="PASS" signature="CaptureSnapshot(org.testng.ITestResult)[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab]" name="CaptureSnapshot" is-config="true" duration-ms="4418" started-at="2020-06-05T12:05:56 IST" finished-at="2020-06-05T12:06:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InfoAboutAT_ZeenyxTestcase status=SUCCESS method=InfoAboutATZeennyxTestcase.InfoAboutAT_ZeenyxTestcase()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6] output={null}]]]>
+                <![CDATA[[TestResult name=InfoAboutAT_ZeenyxTestcase status=SUCCESS method=InfoAboutATZeennyxTestcase.InfoAboutAT_ZeenyxTestcase()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab] output={null}]]]>
               </value>
             </param>
           </params>
@@ -54,7 +54,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CaptureSnapshot -->
-        <test-method status="PASS" signature="AppOnFinish()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@1f7030a6]" name="AppOnFinish" is-config="true" duration-ms="3664" started-at="2020-02-14T12:55:52 IST" finished-at="2020-02-14T12:55:56 IST">
+        <test-method status="PASS" signature="AppOnFinish()[pri:0, instance:com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase@646d64ab]" name="AppOnFinish" is-config="true" duration-ms="10903" started-at="2020-06-05T12:06:00 IST" finished-at="2020-06-05T12:06:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOnFinish -->

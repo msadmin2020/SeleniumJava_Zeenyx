@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -49,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\vidya\AppData\Local\Temp\testng-eclipse--1752321371\testng-customsuite.xml</span>
+                    <span>C:\Users\msadmin\AppData\Local\Temp\testng-eclipse--1760020055\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -135,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vidya\AppData\Local\Temp\testng-eclipse--1752321371\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\msadmin\AppData\Local\Temp\testng-eclipse--1760020055\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -188,7 +190,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'InfoAboutAT_ZeenyxTestcase')
 data.setCell(0, 2, 'com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase')
-data.setCell(0, 3, 5019);
+data.setCell(0, 3, 5111);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -226,23 +228,24 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">AppOnStart</span>
-                <span class="method-start">378 ms</span>
+                <span class="method-start">165 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">InfoAboutAT_ZeenyxTestcase</span>
-                <span class="method-start">23430 ms</span>
+                <span class="method-start">53005 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CaptureSnapshot([TestResult name=InfoAboutAT_ZeenyxTestcase status=SUCCESS method=InfoAboutATZeennyxTestcase.InfoAbo...)</span>
-                <span class="method-start">28452 ms</span>
+                <span class="method-start">58132 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">AppOnFinish</span>
-                <span class="method-start">34618 ms</span>
+                <span class="method-start">62553 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

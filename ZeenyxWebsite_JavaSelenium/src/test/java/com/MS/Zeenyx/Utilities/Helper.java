@@ -65,16 +65,16 @@ public class Helper {
 			
 			
 			//authentication info
-			final String username = "vidyaclk12@gmail.com";
-			final String password = "vidya@1993";
-			String fromEmail = "vidyaclk12@gmail.com";
-			String toEmail = "vidyashri@matryxsoft.com";
+			final String username = "regression@matryxsoft.com";
+			final String password = "Matryx@2020";
+			String fromEmail = "regression@matryxsoft.com";
+			String toEmail = "pavani@matryxsoft.com";
 			
 			Properties properties = new Properties();
 			properties.put("mail.smtp.auth", "true");
 			properties.put("mail.smtp.starttls.enable", "true");
-			properties.put("mail.smtp.host", "smtp.gmail.com");
-			properties.put("mail.smtp.port", "587");
+			properties.put("mail.smtp.host", "sg2plcpnl0106.prod.sin2.secureserver.net");
+			properties.put("mail.smtp.port", "465");
 			
 			Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
@@ -107,7 +107,7 @@ public class Helper {
 						" \r\n" + 
 						"MATRYXSOFT TECH LLP \r\n" + 
 						"#9/2,Near BEL Circle, Hebbal Ring Road \r\n" + 
-						"Bengaluru 560094,  Ph#: 8970293082\r\n" + 
+						"Bengaluru 560094\r\n" + 
 						"Website: www.matryxsoft.com\r\n" + 
 						"\r\n" + 
 						"\r\n" + 
