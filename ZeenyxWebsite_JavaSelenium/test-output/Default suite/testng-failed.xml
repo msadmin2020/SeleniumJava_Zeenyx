@@ -3,18 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MS.Zeenyx.Plans.ZeenyxWebsiteTestPlan">
+      <class name="com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase">
         <methods>
-          <include name="InfoAboutAT_ZeenyxTestcase3"/>
-          <include name="AppOnStart"/>
           <include name="SetUpSuite"/>
-          <include name="InfoRequest_ZeenyxTestcase"/>
-          <include name="InfoAboutAT_ZeenyxTestcase1"/>
-          <include name="InfoAboutAT_ZeenyxTestcase2"/>
+          <include name="InfoAboutAT_ZeenyxTestcase"/>
+          <include name="AppOnStart"/>
+          <include name="AppOnFinish"/>
           <include name="CaptureSnapshot"/>
-          <include name="AppOnFinish1"/>
         </methods>
-      </class> <!-- com.MS.Zeenyx.Plans.ZeenyxWebsiteTestPlan -->
+      </class> <!-- com.MS.Zeenyx.Testcases.InfoAboutATZeennyxTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
