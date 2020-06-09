@@ -60,7 +60,7 @@ public class BaseClass {
 		@BeforeClass
 		public void AppOnStart()
 		{
-	        driver=BrowserFactory.OnStart(driver, config.GetBrowser(), config.GetStagingURL());
+	        driver=BrowserFactory.OnStart(driver, config.GetBrowser(), config.GetURL());
 		}
 
 		//***************************************APP STATE ONFINISH***************************************

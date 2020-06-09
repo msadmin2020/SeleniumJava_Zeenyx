@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.MS.Zeenyx.Testcases.InfoRequestZeenyxTestcase"/>
+      <class name="com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -19,7 +19,7 @@ public class ExcelDataProvider {
 		Object[][] data=null;
 	try
 	{
-		 file=new FileInputStream("./TestData/ZeenyxInfoReqData.xlsx");
+		 file=new FileInputStream("./TestData/ZeenyxTestData.xlsx");
 		
 			WB=WorkbookFactory.create(file);
 			sheet=WB.getSheet(sheetName);

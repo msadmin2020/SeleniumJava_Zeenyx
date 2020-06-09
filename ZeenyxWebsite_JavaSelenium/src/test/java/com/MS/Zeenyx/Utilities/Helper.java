@@ -68,7 +68,7 @@ public class Helper {
 			final String username = "regression@matryxsoft.com";
 			final String password = "Matryx@2020";
 			String fromEmail = "regression@matryxsoft.com";
-			String toEmail = "pradeep@matryxsoft.com";
+			String toEmail = "supritha@matryxsoft.com";
 			
 			Properties properties = new Properties();
 			properties.put("mail.smtp.auth", "true");

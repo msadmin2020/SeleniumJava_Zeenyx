@@ -37,9 +37,9 @@ Properties pro;
 		return pro.getProperty("Browser");
 	}
 	
-	public String GetStagingURL()
+	public String GetURL()
 	{
-		return pro.getProperty("qaUrl");
+		return pro.getProperty("Url");
 	}
 
 }
