@@ -32,8 +32,9 @@ public class Zeenyx_RequestInformation extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		logger.info("Details are added to request tool information.");
 		System.out.println("Details are added to request tool information.");
-
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		
+		System.out.println("Zeenyx_RequestInformation test passed suucssfully");
 
 	}
 
