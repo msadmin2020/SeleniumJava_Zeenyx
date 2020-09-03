@@ -30,9 +30,10 @@ public class Zeenyx_RequestInformation extends BaseClass {
 		logger.info("Starting Application");
 		Infodetails.RequestInfo(sTxt_FirstName, sTxt_LastName, sTxt_Email, sDropdown_Subject, sTxt_Message);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		logger.info("Details are added to request tool information.");
 		System.out.println("Details are added to request tool information.");
 
-		System.out.println("Testcase by vidya");
+		//System.out.println("Testcase by vidya");
 
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 

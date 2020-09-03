@@ -45,9 +45,9 @@ public class BaseClass {
 			report.attachReporter(extent);
 			
 			report.setSystemInfo("Hostname", "LocalHost");
-			report.setSystemInfo("System", "MSDES13");
+			//report.setSystemInfo("System", "MSDES13");
 			report.setSystemInfo("OS", "Windows10");
-			report.setSystemInfo("Tester", "Vidya");
+			//report.setSystemInfo("Tester", "Vidya");
 			report.setSystemInfo("Browser", "Firefox");
 			report.setSystemInfo("Environment", "QA");
 			

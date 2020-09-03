@@ -68,12 +68,12 @@ public class Helper {
 			final String username = "regression@matryxsoft.com";
 			final String password = "Matryx@2020";
 			String fromEmail = "regression@matryxsoft.com";
-			String toEmail = "pradeep@matryxsoft.com";
+			String toEmail = "supritha@matryxsoft.com";
 			
 			Properties properties = new Properties();
 			properties.put("mail.smtp.auth", "true");
 			properties.put("mail.smtp.socketFactory.class","javax.net.ssl.SSLSocketFactory");
-			properties.put("mail.smtp.host", "sg2plcpnl0106.prod.sin2.secureserver.net");
+			properties.put("mail.smtp.host", "sg2plcpnl0104.prod.sin2.secureserver.net");
 			properties.put("mail.smtp.port", "465");
 			
 			Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
@@ -95,12 +95,10 @@ public class Helper {
 				textBodyPart.setText("Hi, \r\n" + 
 						"Greetings of the day!\r\n" + 
 						"\r\n" + 
-						"PFA of Zeenyx Website testcases in java selenium\r\n" + 			 
-						"\r\n" + 
-						"Please let me know For any clarifications needed.\r\n" + 
+						"PFA for Selenium java test report.\r\n" + 			 
 						"\r\n" + 
 						"Regards,\r\n" + 
-						"Vidyashri D\r\n" + 
+						"Matryxsoft Team\r\n" + 
 						" \r\n" + 
 						"MATRYXSOFT TECH LLP \r\n" + 
 						"#9/2,Near BEL Circle, Hebbal Ring Road \r\n" + 
