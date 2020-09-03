@@ -14,12 +14,12 @@
       <![CDATA[Test Completed >>>> Reports Generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41998" started-at="2020-06-09T09:31:03 IST" finished-at="2020-06-09T09:31:45 IST">
+  <suite name="Default suite" duration-ms="46210" started-at="2020-09-03T10:19:51 IST" finished-at="2020-09-03T10:20:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41998" started-at="2020-06-09T09:31:03 IST" finished-at="2020-06-09T09:31:45 IST">
+    <test name="Default test" duration-ms="46210" started-at="2020-09-03T10:19:51 IST" finished-at="2020-09-03T10:20:37 IST">
       <class name="com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation">
-        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="SetUpSuite" is-config="true" duration-ms="149" started-at="2020-06-09T09:31:03 IST" finished-at="2020-06-09T09:31:03 IST">
+        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="SetUpSuite" is-config="true" duration-ms="154" started-at="2020-09-03T10:19:51 IST" finished-at="2020-09-03T10:19:51 IST">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and test is getting ready]]>
@@ -29,11 +29,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- SetUpSuite -->
-        <test-method status="PASS" signature="AppOnStart()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="AppOnStart" is-config="true" duration-ms="17453" started-at="2020-06-09T09:31:03 IST" finished-at="2020-06-09T09:31:21 IST">
+        <test-method status="PASS" signature="AppOnStart()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="AppOnStart" is-config="true" duration-ms="20754" started-at="2020-09-03T10:19:51 IST" finished-at="2020-09-03T10:20:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOnStart -->
-        <test-method status="PASS" signature="WebcastRegister_ZeenyxTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="WebcastRegister_ZeenyxTestcase" duration-ms="6074" started-at="2020-06-09T09:31:21 IST" data-provider="ReadData" finished-at="2020-06-09T09:31:28 IST">
+        <test-method status="PASS" signature="ZeenyxTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="ZeenyxTestcase" duration-ms="4428" started-at="2020-09-03T10:20:12 IST" data-provider="ReadData" finished-at="2020-09-03T10:20:17 IST">
           <params>
             <param index="0">
               <value>
@@ -63,12 +63,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebcastRegister_ZeenyxTestcase -->
-        <test-method status="PASS" signature="CaptureSnapshot(org.testng.ITestResult)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="CaptureSnapshot" is-config="true" duration-ms="13656" started-at="2020-06-09T09:31:28 IST" finished-at="2020-06-09T09:31:41 IST">
+        </test-method> <!-- ZeenyxTestcase -->
+        <test-method status="PASS" signature="CaptureSnapshot(org.testng.ITestResult)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="CaptureSnapshot" is-config="true" duration-ms="15118" started-at="2020-09-03T10:20:17 IST" finished-at="2020-09-03T10:20:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WebcastRegister_ZeenyxTestcase status=SUCCESS method=Zeenyx_RequestInformation.WebcastRegister_ZeenyxTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195] output={null}]]]>
+                <![CDATA[[TestResult name=ZeenyxTestcase status=SUCCESS method=Zeenyx_RequestInformation.ZeenyxTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195] output={null}]]]>
               </value>
             </param>
           </params>
@@ -81,7 +81,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CaptureSnapshot -->
-        <test-method status="PASS" signature="AppOnFinish()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="AppOnFinish" is-config="true" duration-ms="4237" started-at="2020-06-09T09:31:41 IST" finished-at="2020-06-09T09:31:45 IST">
+        <test-method status="PASS" signature="AppOnFinish()[pri:0, instance:com.MS.Zeenyx.Testcases.Zeenyx_RequestInformation@4493d195]" name="AppOnFinish" is-config="true" duration-ms="5330" started-at="2020-09-03T10:20:32 IST" finished-at="2020-09-03T10:20:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppOnFinish -->
