@@ -33,8 +33,6 @@ public class Zeenyx_RequestInformation extends BaseClass {
 		logger.info("Details are added to request tool information.");
 		System.out.println("Details are added to request tool information.");
 
-		//System.out.println("Testcase by vidya");
-
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
 	}

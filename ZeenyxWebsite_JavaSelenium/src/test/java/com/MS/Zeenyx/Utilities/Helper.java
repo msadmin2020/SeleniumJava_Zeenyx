@@ -108,7 +108,7 @@ public class Helper {
 						"\r\n" + 
 						"");
 				
-				//Attachment body part.
+				//Attachment body part
 				MimeBodyPart pdfAttachment = new MimeBodyPart();
 				pdfAttachment.attachFile("./Reports/ZeenyxWebsite.html");
 				
